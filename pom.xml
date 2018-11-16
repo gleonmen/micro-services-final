@@ -14,6 +14,7 @@
 		<module>spring-microservices-library-registry</module>
 		<module>spring-microservices-library-ui</module>
 		<module>spring-microservices-library-edge</module>
+		<module>spring-microservices-real-catalog</module>
     </modules>
  
 </project>
