@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-microservices-library-catalog" />
+        <module name="spring-microservices-library-config" />
+        <module name="spring-microservices-library-edge" />
+        <module name="spring-microservices-library-registry" />
+        <module name="spring-microservices-library-reservation" />
+        <module name="spring-microservices-library-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+</project>
