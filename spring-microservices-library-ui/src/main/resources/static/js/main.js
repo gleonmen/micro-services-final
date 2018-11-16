@@ -19,8 +19,8 @@ Page.prototype.bindNavigation = function() {
 	var that = this;
 	$("#my-reservations").click(function() {
 		$.post("http://localhost:5005/reservation/user/" + that.name, function(data) {
-				var html = "<h4>Reservations</h4>"; 
-				html += "<table>";
+				var html = "<div class=\"title\"><h4>Reservations</h4></div>";
+				html += "<table border='1' id='basic'>";
 				html += "<tr>";
 				html += "<th>Reservation Id</th>"
 				html += "<th>Book Id</th>"
@@ -42,7 +42,7 @@ Page.prototype.bindNavigation = function() {
 
 	$("#catalog").click(function() {
 		$.post("http://localhost:5005/catalog", function(data) {
-			var html = "<h4>Catalog</h4>"; 
+			var html = "<div class=\"title\"><h4>Catalog</h4></div>";
 			html += "<table>";
 			html += "<tr>";
 			html += "<th>Title</th>"

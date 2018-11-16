@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cebe3a76-a311-4894-ba9b-13ae01063b76" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/public/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/public/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/static/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-microservices-library-config/target/" />
     <ignored path="$PROJECT_DIR$/spring-microservices-library-catalog/target/" />
@@ -22,6 +22,92 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/public/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog-default.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration/catalog-default.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringMicroservicesLibraryRegistryApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-registry/src/main/java/com/oreilly/cloud/SpringMicroservicesLibraryRegistryApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringMicroservicesLibraryEdgeApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-edge/src/main/java/com/oreilly/cloud/SpringMicroservicesLibraryEdgeApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-edge/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringMicroservicesLibraryReservationApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-reservation/src/main/java/com/oreilly/cloud/SpringMicroservicesLibraryReservationApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringMicroservicesLibraryCatalogApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-catalog/src/main/java/com/oreilly/cloud/SpringMicroservicesLibraryCatalogApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-catalog/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-catalog/src/main/java/com/oreilly/cloud/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-microservices-library-reservation/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,6 +122,16 @@
         <entry key="C:/EIS/eis-csat-consumer" value="PREVIEW" />
         <entry key="C:/EIS/eis-monitoring" value="PREVIEW" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-microservices-library-config/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/static/js/main.js" />
+        <option value="$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/public/home.html" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -71,10 +167,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2325" />
+    <option name="height" value="1317" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -93,7 +189,163 @@
             <path>
               <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
               <item name="spring-microservices-library-catalog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-reservation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms-demo-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-microservices-library-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,6 +368,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DEV-WEEK-2018\demo\ms-demo-spring-cloud" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -265,19 +522,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542402482051</updated>
-      <workItem from="1542402487304" duration="517000" />
+      <workItem from="1542402487304" duration="4649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517000" />
+    <option name="totallyTimeSpent" value="4649000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.16356276" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="right" id="Mongo Explorer" />
       <window_info id="Capture Tool" />
@@ -293,13 +551,13 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.5402504" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37975708" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" />
@@ -317,6 +575,97 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-config/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-ui/src/main/resources/public/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/catalog-default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-registry/src/main/java/com/oreilly/cloud/SpringMicroservicesLibraryRegistryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-edge/src/main/java/com/oreilly/cloud/SpringMicroservicesLibraryEdgeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-edge/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-reservation/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-reservation/src/main/java/com/oreilly/cloud/SpringMicroservicesLibraryReservationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-catalog/src/main/java/com/oreilly/cloud/SpringMicroservicesLibraryCatalogApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-catalog/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-microservices-library-catalog/src/main/java/com/oreilly/cloud/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

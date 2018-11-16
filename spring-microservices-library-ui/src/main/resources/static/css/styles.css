@@ -1,22 +1,96 @@
-#sidebar {
-	float: left;
-	margin: 0px 3px;
-	list-style: none;
+header{
+	padding: 0px 20px 0px 20px;
 }
-
-h4 {
-	margin: 3px;
+.topline{
+	display: block;
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 3px;
+	color: #213c81;
 }
-
-#content {
-	float: left;
-	padding: 0px 0px 0px 20px;
+body{
+	background-image: url("/resources/images/bg.png");
+	background-repeat: no-repeat;
 }
-
-#my-reservations,#catalog{
-	cursor: pointer;
+section{
+	padding: 10px 20px 0px 40px;
 }
-
+.title{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+	text-align: right;
+}
+.menu-option{
+	color: #d52e26;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.menu-option:hover{
+	color: #213c81;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.accountlist{
+	background-color: #ffffff;
+}
+th{
+	background-color: #d52e26;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+}
 td{
-	padding: 0px 5px;
+	border: 1px #999999 solid ;
+	text-align: center;
+	padding: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	background: #ffffff;
+	opacity: 0.85;
+}
+fieldset{
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #dddddd;
+	width: 50%;
+}
+legend{
+	color: #d52e26;
+	padding: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+.boton{
+	background-color: #169BD5;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.divboton{
+	text-align: left;
+	margin-top: 20px;
+}
+.textBox{
+	padding: 5px;
+	margin: 3px;
+	color: #d52e26;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.addOption{
+	width: 24px;
+	margin-bottom: -6px;
 }
