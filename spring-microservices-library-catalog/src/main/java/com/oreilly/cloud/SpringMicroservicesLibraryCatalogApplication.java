@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
@@ -24,6 +25,7 @@ import java.util.List;
 @EnableEurekaClient
 @EnableHystrix
 @EnableHystrixDashboard
+@RefreshScope
 public class SpringMicroservicesLibraryCatalogApplication {
 
     @Value("${catalog.size}")
@@ -38,7 +40,9 @@ public class SpringMicroservicesLibraryCatalogApplication {
     @CrossOrigin
     @HystrixCommand(fallbackMethod = "failover")
     public List<Book> getCatalog()  {
-        return this.restTemplate().getForObject("http://localhost:5005/realcatalog",List.class);
+
+        System.out.println(" size " + size );
+        return this.restTemplate().getForObject("http://localhost:5005/realcatalog?size="+size,List.class);
     }
 
 
