@@ -12,6 +12,7 @@
         <module name="spring-microservices-library-registry" />
         <module name="spring-microservices-library-reservation" />
         <module name="spring-microservices-library-ui" />
+        <module name="spring-microservices-oauth-server" />
         <module name="spring-microservices-real-catalog" />
       </profile>
     </annotationProcessing>

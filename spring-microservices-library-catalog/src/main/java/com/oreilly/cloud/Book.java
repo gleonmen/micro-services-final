@@ -34,6 +34,13 @@ public class Book {
 		return tmpBooks;
 	}
 
+	public Book() {
+	}
+
+	public static void addBook(Book book){
+
+	}
+
 	public Book(int bookId, String title, String authorFirstName, String authorLastName, int pages, String genre) {
 		this.bookId = bookId;
 		this.title = title;

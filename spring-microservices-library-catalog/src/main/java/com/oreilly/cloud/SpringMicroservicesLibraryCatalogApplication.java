@@ -1,31 +1,43 @@
 package com.oreilly.cloud;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import freemarker.core.ReturnInstruction;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
 @RestController
+@Slf4j
+
+@RefreshScope
 @EnableEurekaClient
+//Monitoring and Health check
 @EnableHystrix
 @EnableHystrixDashboard
-@RefreshScope
+
+//Security
+@EnableAuthorizationServer
+@EnableResourceServer
+//@EnableGlobalMethodSecurity(prePostEnabled=true)
 public class SpringMicroservicesLibraryCatalogApplication {
 
     @Value("${catalog.size}")
@@ -41,8 +53,13 @@ public class SpringMicroservicesLibraryCatalogApplication {
     @HystrixCommand(fallbackMethod = "failover")
     public List<Book> getCatalog()  {
 
-        System.out.println(" size " + size );
         return this.restTemplate().getForObject("http://localhost:5005/realcatalog?size="+size,List.class);
+    }
+    @RequestMapping("/catalog/book")
+    //@PreAuthorize("hasRole('ADMIN')")
+    @PostMapping(consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public ResponseEntity addBook(@RequestBody @Valid Book book){
+        return ResponseEntity.ok().build();
     }
 
 
