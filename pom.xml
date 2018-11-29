@@ -15,6 +15,9 @@
 		<module>spring-microservices-library-ui</module>
 		<module>spring-microservices-library-edge</module>
 		<module>spring-microservices-real-catalog</module>
+		<module>spring-microservices-oauth-client</module>
+		<module>spring-microservices-oauth-resource</module>
+		<module>spring-microservices-oauth-server</module>
     </modules>
  
 </project>

@@ -40,6 +40,7 @@ Page.prototype.bindNavigation = function() {
 		})
 	});
 
+
 	$("#catalog").click(function() {
 		$.post("http://localhost:5005/catalog", function(data) {
 			var html = "<div class=\"title\"><h4>Catalog</h4></div>";

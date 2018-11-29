@@ -7,6 +7,9 @@
     <file url="file://$PROJECT_DIR$/spring-microservices-library-registry" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-microservices-library-reservation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-microservices-library-ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-microservices-oauth-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-microservices-oauth-resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-microservices-oauth-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-microservices-real-catalog" charset="UTF-8" />
   </component>
 </project>

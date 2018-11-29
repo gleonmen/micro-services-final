@@ -12,11 +12,12 @@
         <module name="spring-microservices-library-registry" />
         <module name="spring-microservices-library-reservation" />
         <module name="spring-microservices-library-ui" />
+        <module name="spring-microservices-oauth-client" />
+        <module name="spring-microservices-oauth-resource" />
+        <module name="spring-microservices-oauth-server" />
         <module name="spring-microservices-real-catalog" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="spring-microservices-oauth-server" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
