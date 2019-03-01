@@ -38,12 +38,37 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
+	  <plugins>
+	    <plugin>
+	      <groupId>org.springframework.boot</groupId>
+	      <artifactId>spring-boot-maven-plugin</artifactId>
+	    </plugin>
+            <plugin>
+              <groupId>com.spotify</groupId>
+              <artifactId>docker-maven-plugin</artifactId>
+              <version>1.2.0</version>
+              <configuration>
+                <imageName>${project.artifactId}</imageName>
+                <dockerDirectory>src/main/docker</dockerDirectory>
+                <!--registryUrl>${env.docker_registry_host}</registryUrl-->
+                <dockerHost>${env.DOCKER_HOST}</dockerHost>
+                <resources>
+                  <resource>
+                    <targetPath>/</targetPath>
+                    <directory>${project.build.directory}</directory>
+                    <include>${project.build.finalName}.jar</include>
+                  </resource>
+                </resources>
+                <forceTags>false</forceTags>
+                <imageTags>
+                  <imageTag>${project.version}</imageTag>
+                </imageTags>
+                <buildArgs>
+                  <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
+                </buildArgs>
+              </configuration>
+            </plugin>
+	  </plugins>
 	</build>
 
 
